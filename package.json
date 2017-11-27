@@ -1,0 +1,22 @@
+{
+  "name": "yjs-demo",
+  "version": "0.0.1",
+  "description": "Yjs demo over IPFS",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1 -p 12345 public",
+    "compile": "browserify src/app.js -o public/js/app.js -d"
+  },
+  "author": "suyu huang",
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^14.5.0",
+    "http-server": "^0.10.0",
+    "ipfs": "^0.26.0",
+    "y-array": "^10.1.4",
+    "y-ipfs-connector": "^1.5.0",
+    "y-memory": "^8.0.9",
+    "y-text": "^9.5.1",
+    "yjs": "^12.3.3"
+  }
+}
